@@ -93,7 +93,7 @@ export default {
       var issafariBrowser =
         /Safari/.test(navigator.userAgent) &&
         !/Chrome/.test(navigator.userAgent);
-      // alert(issafariBrowser);
+      alert(issafariBrowser);
       return issafariBrowser;
     },
     safariHacks() {
